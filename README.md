@@ -10,3 +10,9 @@ Koa 服务预览地址：https://vercel-koa2-t511069160.vercel.app
 
 
 
+有人直接 fork 项目，发现运行不了，因为不是这样搞的
+
+`vercel-koa2` 是服务端项目，vercel 支持[无服务器函数结合使用](https://vercel.com/docs/concepts/functions/serverless-functions/runtimes/node-js#)，同样的官网有 [
+将 Express.js 与 Vercel 一起使用](https://vercel.com/guides/using-express-with-vercel) 的教程
+
+`vercel-sample` 常规的静态页面的部署
